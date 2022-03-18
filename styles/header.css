@@ -1,0 +1,89 @@
+.header-section {
+  background-image: url(../images/header/header.jpg);
+  background-size: cover;
+  height: 95vh;
+  background-position: left;
+}
+.navbar-section {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+.navbar-links li {
+  display: inline-block;
+  padding: 1.5rem;
+}
+.navbar-links li a {
+  color: #fff;
+}
+.navbar-icons i {
+  padding: 1.5rem;
+}
+#menu-btn {
+  display: none;
+}
+.banner-section {
+  display: flex;
+  align-items: center;
+  font-size: 4.5rem;
+}
+.btn-orange {
+  background-color: rgb(255, 87, 27);
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 2rem;
+  margin: 1rem 0;
+  transition: all 0.25s linear;
+}
+.btn-orange:hover {
+  background-color: rgb(221, 138, 30);
+}
+.banner-title {
+  width: 55%;
+  color: #fff;
+  margin-top: 8rem;
+}
+.guitar {
+  background-image: linear-gradient(
+      rgba(175, 44, 44, 0.6),
+      rgba(187, 33, 33, 0.6)
+    ),
+    url(../images/header/header.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  padding: 4rem;
+  text-align: center;
+  color: #ffff;
+  font-size: 2rem;
+  transform: translate(0, 15rem);
+}
+.guitar p {
+  padding: 1.5rem;
+}
+@media (max-width: 991px) {
+  /* bu burger bardi ocilishi navbarda */
+  #menu-btn {
+    display: inline-block;
+  }
+  .navbar-links {
+    display: none;
+  }
+  .navbar-icons {
+    display: none;
+  }
+  .banner-title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 776px) {
+  .banner-title {
+    width: 100%;
+    text-align: center;
+  }
+  .guitar {
+    transform: translate(0, 25rem);
+  }
+}

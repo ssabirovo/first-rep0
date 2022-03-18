@@ -1,0 +1,42 @@
+.gear-section__title {
+  display: flex;
+  justify-content: center;
+}
+.gear-section__title h1 {
+  border-top: 1px solid red;
+  font-size: 2.5rem;
+}
+.gear-section__boxes1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 3rem;
+}
+.gear-section__box {
+  background-color: #252525;
+  color: #fff;
+  border-radius: 10px;
+}
+.gear-section__box h1 {
+  padding: 0 2rem;
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+.gear-section__box h3 {
+  padding-bottom: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  color: #6c6c6c;
+}
+.light {
+  background-color: #eaeaea;
+  color: #000;
+}
+.gear-section__box img {
+  width: 35rem;
+}
+.bigB img {
+  width: 53.9rem;
+}

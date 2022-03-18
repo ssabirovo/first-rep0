@@ -1,0 +1,80 @@
+.new-products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-products h1 {
+  padding-top: 20rem;
+  font-size: 3rem;
+  color: black;
+}
+.product-section {
+  place-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 5rem;
+  padding-top: 6rem;
+}
+.new-section-guitar {
+  box-shadow: 1px 1px 10px #0003;
+  border-radius: 1.5rem;
+}
+.new-section-guitar .product-section-content {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.new-section-guitar .product-section-content .money h1 {
+  font-size: 1.5rem;
+  color: #0005;
+  display: flex;
+
+  align-items: flex-start;
+}
+.product-section-content .brand h1 {
+  font-size: 2rem;
+  gap: 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+.product-section-content .brand h3 {
+  font-size: 1.5rem;
+  color: #0005;
+}
+.product-section-content .brand .colors {
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.new-section-guitar .product-section-image img {
+  width: 35rem;
+  height: 35rem;
+}
+
+.popular-finds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular-finds h1 {
+  padding-top: 3rem;
+  font-size: 3rem;
+  color: #000;
+}
+
+.popular-finds-section {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 4rem;
+  padding-top: 4rem;
+}

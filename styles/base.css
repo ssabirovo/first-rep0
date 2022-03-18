@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .33s linear;
+}
+html {
+  font-size: 62.5%;
+}
+section {
+  padding: 3rem 9%;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  section {
+    padding: 3rem 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* bu burger bardi ocilishi navbarda */
+  #menu-btn {
+    display: inline-block;
+  }
+  html {
+    font-size: 55%;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+  .none1 {
+    display: none;
+  }
+  .bigB img {
+    width: 34rem;
+  }
+}
+@media (max-width: 680px) {
+  .gear-section__boxes1 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .product-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  
+  .footer__logo {
+    display: none;
+  }
+  .footer__text__none {
+    display: none;
+  }
+  .footer {
+    justify-content: center;
+  }
+  .footer__text ul li {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 40%;
+  }
+}
